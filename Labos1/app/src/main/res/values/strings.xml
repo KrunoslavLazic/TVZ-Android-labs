@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KalkulatorLazic</string>
+    <string name="select_intake_prompt">Select Intake</string>
+    <string name="select_dehydrate_prompt">Select Dehydrate</string>
+</resources>

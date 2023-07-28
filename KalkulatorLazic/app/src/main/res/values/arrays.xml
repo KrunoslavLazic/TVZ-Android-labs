@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="intake_options">
+        <item>Glass      (+0.1l)</item>
+        <item>Glass     (+0.25l)</item>
+        <item>Bottle     (+0.5l)</item>
+    </string-array>
+    <string-array name="outtake_options">
+        <item>Cup Coffee (-0.1l)</item>
+        <item>Walk 1km   (-0.2l)</item>
+        <item>Alcohol    (-0.3l)</item>
+        <item>Gym        (-1.0l)</item>
+        <item>Illness    (-1.5l)</item>
+    </string-array>
+    <string-array name="languages">
+        <item>ENG</item>
+        <item>CRO</item>
+        <item>SRB</item>
+    </string-array>
+</resources>

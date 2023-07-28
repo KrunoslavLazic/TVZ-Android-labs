@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "300122405718",
+    "project_id": "fragmentilazic1",
+    "storage_bucket": "fragmentilazic1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300122405718:android:29ad3d91603f243b1d74f7",
+        "android_client_info": {
+          "package_name": "hr.tvz.android.listalazic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300122405718-jqr3lbjruhggme0eikppoc6f2mg2ovlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhUgSv21RvU5sdGvz-_BOKYBW9oyJBVlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300122405718-jqr3lbjruhggme0eikppoc6f2mg2ovlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

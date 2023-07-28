@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kalkulator Vode Lazic</string>
+    <string name="intake">UVOZ</string>
+    <string name="insert">Unesi</string>
+    <string name="outtake">IZVOZ</string>
+    <string name="history">Povijest</string>
+    <string name="clear">Obriši</string>
+    <string name="current_goal">Trenutno / Željeno</string>
+    <string name="x_yl">IKS / IPSl</string>
+    <string name="daily_water_goal_liters">Ciljani dnevni unos (litre)</string>
+    <string name="recommended_daily_intake">Preporučeni dnevni unos:</string>
+</resources>

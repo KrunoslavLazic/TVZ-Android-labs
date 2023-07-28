@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">калкулатор лазић</string>
+    <string name="intake">увоз</string>
+    <string name="insert">унеси</string>
+    <string name="outtake">извоз</string>
+    <string name="history">хисторија</string>
+    <string name="clear">обриши</string>
+    <string name="current_goal">тренутно / жељено</string>
+    <string name="x_yl">ИКС / ИПС</string>
+    <string name="daily_water_goal_liters">Циљани дневни унос (литре)</string>
+    <string name="recommended_daily_intake">Препоручени дневни унос</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GroceryApp</string>
+    <string name="country">Country</string>
+    <string name="name">Name</string>
+    <string name="calories">Calories</string>
+    <string name="price">Price</string>
+
+    <string name="brokulaURL">https://hr.wikipedia.org/wiki/Brokula</string>
+    <string name="mlijekoURL">https://hr.wikipedia.org/wiki/Mlijeko</string>
+    <string name="jajaURL">https://hr.wikipedia.org/wiki/Jaje</string>
+    <string name="sirURL">https://hr.wikipedia.org/wiki/Sir</string>
+    <string name="bananaURL">https://hr.wikipedia.org/wiki/Banana</string>
+
+</resources>

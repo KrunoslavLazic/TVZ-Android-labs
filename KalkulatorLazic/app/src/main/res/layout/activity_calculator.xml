@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".CalculatorActivity">
+
+    <TextView
+        android:id="@+id/text1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="40dp"
+
+        android:textStyle="bold"
+        android:text="@string/intake"
+        android:typeface="monospace" />
+
+    <Spinner
+        android:id="@+id/spinnerIntake"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="20dp"
+
+        android:textColor="@color/true_red"
+        android:entries="@array/intake_options" />
+
+    <Button
+        android:id="@+id/buttonIntake"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerIntake"
+        android:layout_marginStart="55dp"
+
+        android:backgroundTint="@color/blue"
+        android:text="@string/insert" />
+
+    <TextView
+        android:id="@+id/text2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="40dp"
+
+        android:textStyle="bold"
+        android:text="@string/outtake"
+        android:typeface="monospace"/>
+
+    <Spinner
+        android:id="@+id/spinnerOuttake"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/text2"
+        android:layout_marginBottom="15dp"
+
+        android:entries="@array/outtake_options" />
+    <Button
+        android:id="@+id/buttonOuttake"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerOuttake"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="55dp"
+
+        android:backgroundTint="@color/blue"
+        android:text="@string/insert" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonOuttake"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="290dp"
+        android:text="@string/history"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonClear"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerIntake"
+        android:layout_marginStart="55dp"
+
+        android:layout_marginTop="390dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/clear" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/historyRecyclerView"
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/buttonOuttake"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="256dp"
+
+        android:scrollbars="vertical" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/tvGoalIntake"
+
+        android:textSize="20sp"
+        android:text="@string/current_goal"/>
+
+
+    <TextView
+        android:id="@+id/tvGoalIntake"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/x_yl"
+        android:textSize="70sp" />
+
+    <Spinner
+        android:id="@+id/spinnerLng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:entries="@array/languages"/>
+</RelativeLayout>

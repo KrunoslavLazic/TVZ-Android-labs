@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="5"
+    android:rowCount="6">
+
+    <TextView
+        android:layout_row="0"
+        android:layout_column="0"
+        android:text="Daily Water Goal (in liters)" />
+
+    <EditText
+        android:id="@+id/daily_goal_edit_text"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:hint="e.g. 2.5"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="Intake" />
+
+    <TextView
+        android:layout_row="1"
+        android:layout_column="1"
+        android:text="Outtake" />
+
+    <Spinner
+        android:id="@+id/intake_spinner"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:entries="@array/intake_options"
+        android:prompt="@string/select_intake_prompt" />
+
+    <Button
+        android:id="@+id/drank_button"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="Drank" />
+
+    <Spinner
+        android:id="@+id/dehydrate_spinner"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:entries="@array/dehydrate_options"
+        android:prompt="@string/select_dehydrate_prompt" />
+
+    <Button
+        android:id="@+id/drink_button"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:text="Drink!" />
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_columnSpan="3"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/daily_goal_text_view"
+        android:layout_row="4"
+        android:layout_column="0" />
+</GridLayout>

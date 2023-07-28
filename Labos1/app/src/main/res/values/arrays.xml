@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="intake_options">
+        <item>Glass of Water (+0.2l)</item>
+        <item>Bottle (+0.5l)</item>
+        <item>Cup of Coffee (+0.1l)</item>
+    </string-array>
+    <string-array name="dehydrate_options">
+        <item>Gym (-1.0l)</item>
+        <item>Alcohol (-0.5l)</item>
+        <item>Illness (-0.4l)</item>
+        <item>Walk (-0.2l)</item>
+        <item></item>
+    </string-array>
+</resources>

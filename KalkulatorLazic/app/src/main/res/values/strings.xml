@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KalkulatorLazic</string>
+    <string name="intake">INTAKE</string>
+    <string name="insert">Insert</string>
+    <string name="outtake">OUTTAKE</string>
+    <string name="history">History</string>
+    <string name="clear">Clear</string>
+    <string name="current_goal">Current / Goal</string>
+    <string name="x_yl">X / YL</string>
+    <string name="daily_water_goal_liters">Daily Water Goal (liters):</string>
+    <string name="recommended_daily_intake">Recommended daily intake:</string>
+</resources>
